@@ -1,0 +1,60 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="text-white text-justify mt-5">
+    <div class="text-center">
+        <img src="{% static 'core/img/self.jpg' %}" alt="profile-pic" class="img-thumbnail" width="250px" heigt="150px">
+    </div>
+
+    <div class="mt-2">
+        <h1 class="st-font">Hello..</h1>
+    </div>
+
+    <div class="px-4 text-justify" style="line-height:2rem">
+        
+            <p>&emsp;&emsp;&emsp;I'm a <span class="st-font">Mubin,</span> MCA Grad. Fresher| Excellent in Technical &amp; Aptitude
+                Skills| Hands-on-Experience Working With Front-End and Back-End Technologies
+            </p>
+        
+        <p>*I consider being <b>curious</b> as one of my best skill.<br>
+            *I love to <b>explore new tech and field</b>.<br>
+            *I've <b>strong problem solving</b> ability.<br>
+            *I've ability to work as <b>individual as well as in group</b>.
+        </p>
+        <p>
+            Currently I'm looking for a creative and challenging position in an organization that provides scope for
+            aiding my personal and professional growth, while contributing to the symbolic growth of the organization
+            with my technical, innovative and logical skills.
+        </p>
+        <div class="row mt-3">
+            <h4 class="font-weight-bold"><i class="fas fa-graduation-cap"> </i> Education:- </h4>
+            <div class="col-md-6">
+                <ul style="list-style-type: none;line-height: 1.8">
+                    <li><i class="fa fa-university"></i> AES's Institute of Management and Research,
+                        Pune</li>
+                    <li><strong><i class="fas fa-user-graduate"></i> MCA-OCT 2021 </strong></li>
+                    <li><strong><i class="fas fa-award"></i> A' GRADE</strong></li>
+
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul style="list-style-type: none; line-height: 1.8;">
+                    <li><i class="fa fa-university"></i> MGTSM' S Arts, Science &amp; Commerce College,
+                        Chopda</li>
+                    <li><strong><i class="fas fa-user-graduate"></i> BCA-Apr 2018 </strong></li>
+                    <li><strong><i class="fas fa-award"></i> O' GRADE</strong></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <a href="mailto::sk.mubinattar@gmail.com" target="_blank" class="btn btn-outline-warning my-3 mr-5">Hire
+                Me</a>
+            <a href="{% static 'core/docs/Mubin_Attar_Resume.pdf' %}" target="_blank"
+                class="btn btn-outline-info my-3">Download Resume</a>
+
+        </div>
+    </div>
+
+    {% endblock content %}

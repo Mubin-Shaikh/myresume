@@ -1,0 +1,35 @@
+/* font */
+.st-font{
+    font-family: 'Satisfy', cursive;
+    color:#FF8800;
+    font-weight: bold;
+    font-size:xx-large;
+}
+
+html, body{
+    height: 100%;
+}
+.container-fluid{
+    min-height: 100%;
+}
+
+/* services icon color */
+
+.icolor{
+    color:chartreuse;
+}
+.pcolor{
+    color: whitesmoke;
+}
+a.nav-link{
+    color: whitesmoke;
+}
+a.nav-link:hover{
+    color: black;
+    background-color: #ffbb33;
+}
+a.nav-link.active{
+    color: black;
+    background-color: #FF8800;
+    font-weight: bold;
+}
